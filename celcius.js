@@ -24,3 +24,19 @@ let celcius = (tempInFahrenheit - 32) * 5/9
 
 console.log(celcius)
 
+
+// LCO
+var whoIsHere = 'teacher'
+
+if (whoIsHere === 'user') {
+	console.log('Greetings user')
+	console.log('Allow access to view courses')
+} else if (whoIsHere === 'teacher'){
+	console.log('Greetings teacher')
+	console.log('Allow access to own courses')
+} else {
+	console.log('Please verify email')
+	console.log('Send user an email for verification')
+}
+
+

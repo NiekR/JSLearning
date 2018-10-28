@@ -10,12 +10,18 @@ console.log("Current temperature is: " + temp)
 
 // 10 - great
 // 5 -  mediocre
-// 2 - poor
-// 0 -fail
+// 2 -  poor
+// 0 -  fail
 
 let actualMarks = 7
 
-let myGrade = (actuelMarks > 10)
+// == comparison
+let myGrade = (actualMarks == 10)
 
 console.log(myGrade)
+
+
+
+
+
 
