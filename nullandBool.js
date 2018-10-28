@@ -13,5 +13,9 @@ console.log("Current temperature is: " + temp)
 // 2 - poor
 // 0 -fail
 
-Grade 
+let actualMarks = 7
+
+let myGrade = (actuelMarks > 10)
+
+console.log(myGrade)
 

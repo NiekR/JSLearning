@@ -1,3 +1,4 @@
+// Temperatuur berekening
 var score = 100
 
 score = 130
