@@ -20,6 +20,22 @@ let myAdder = function(num1, num2){
 	return added
 }
 
-let result = myAdder(3, 4)
-console.log(result);
+// let result = myAdder(3, 4)
+// console.log(result);
 
+let myMultiplier = function(num1, num2){
+	return num1 * num2
+}
+
+let number = myMultiplier(5, 6)
+
+console.log(number)
+
+
+// Default parameters
+let guestUser = function(name = 'noName', courseCount = 0){
+	return 'Hello ' +  name  + ' your courscount is ' + courseCount
+}
+
+let guest = guestUser()
+console.log(guest);
