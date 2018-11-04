@@ -28,5 +28,5 @@ meetDone(myTodos, 5)
 
 getSummaryOfDay(myTodos)
 
-console.log(getSummaryOfDay(myTodos))
+
 
