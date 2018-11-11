@@ -14,9 +14,11 @@ const newTodos = [{
 	isDone: true,
 },]
 
+
 // Findindex makes it go through every todo index till it finds
 // The todo.title in the return
 
+// Method one findindex
 const index = newTodos.findIndex(function(todo, index){
 	// console.log(todo)
 	return todo.title === 'Go to gym'
@@ -34,6 +36,8 @@ console.log(index)
 // let printMe = findTodo(newTodos, 'go To gym')
 // console.log(printMe)
 
+
+// Method two findIndex
 const findTodo = function(myTodos, title){
 	const titleReturned = myTodos.find(function(todo, index){
 		return todo.title.toLowerCase() === todo.title.toLowerCase()
