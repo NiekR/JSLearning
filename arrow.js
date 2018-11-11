@@ -28,5 +28,18 @@ const todos = [{
 const thingsDone = todos.filter((todo) => todo.isDone === true)
 
 // Params in object w/ foreach
-thingsDone.forEach(todoo => console.log(todoo.title))
+// thingsDone.forEach(todoo => console.log(todoo.title))
+
+
+// No Arrow functions in object
+const cameras = {
+	price: 600,
+	weight: 2000,
+	brand: "Canon",
+	myDescription: () => {
+		return `This canon cameria is of ${this.price}$`
+	}
+}
+
+console.log(cameras.myDescription())
 
