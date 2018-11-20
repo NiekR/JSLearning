@@ -57,9 +57,5 @@ function addItem(){
 
        li.className = 'visual';
 
-
-
-
-
 	}
 }
