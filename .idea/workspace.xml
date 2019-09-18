@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e9ca0b22-4395-4454-8ba6-af5985c8a734" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6-courses/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6-courses/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6-courses/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6-courses/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6-courses/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6-courses/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6-courses/foreach.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6-courses/foreach.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/es6-courses/objectliterals.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,7 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/es6-courses/foreach.js" />
         <option value="$PROJECT_DIR$/es6-courses/index.html" />
         <option value="$PROJECT_DIR$/es6-courses/map.js" />
         <option value="$PROJECT_DIR$/es6-courses/app.js" />
@@ -36,8 +45,11 @@
         <option value="$PROJECT_DIR$/es6-courses/everysome.js" />
         <option value="$PROJECT_DIR$/es6-courses/find.js" />
         <option value="$PROJECT_DIR$/es6-courses/reduce.js" />
-        <option value="$PROJECT_DIR$/es6-courses/_app.js" />
         <option value="$PROJECT_DIR$/es6-courses/constlet.js" />
+        <option value="$PROJECT_DIR$/es6-courses/foreach.js" />
+        <option value="$PROJECT_DIR$/es6-courses/arrowfunctions.js" />
+        <option value="$PROJECT_DIR$/es6-courses/_app.js" />
+        <option value="$PROJECT_DIR$/es6-courses/objectliterals.js" />
       </list>
     </option>
   </component>
@@ -47,10 +59,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1037" />
-    <option name="width" value="893" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -60,6 +72,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,7 +94,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -121,17 +133,21 @@
       <workItem from="1565965292216" duration="599000" />
       <workItem from="1567871854344" duration="498000" />
       <workItem from="1568199670566" duration="3798000" />
-      <workItem from="1568531549863" duration="4832000" />
+      <workItem from="1568531549863" duration="5429000" />
+      <workItem from="1568557030738" duration="965000" />
+      <workItem from="1568664118180" duration="737000" />
+      <workItem from="1568798916977" duration="4106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18276000" />
+    <option name="totallyTimeSpent" value="24681000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="830" y="0" width="714" height="831" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24311927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.041608877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -144,7 +160,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.042918455" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.042979944" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -207,13 +223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es6-courses/foreach.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/es6-courses/map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -252,13 +261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es6-courses/_app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/es6-courses/constlet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -266,17 +268,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es6-courses/reduce.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/es6-courses/find.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6-courses/foreach.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6-courses/arrowfunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6-courses/_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6-courses/reduce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6-courses/objectliterals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>

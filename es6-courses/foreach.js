@@ -20,3 +20,7 @@ numbers.forEach(adder);
 
 // print the sum variable
 console.log(sum);
+
+function doubleMessage(number) {
+    return "Your number doubled is" ${ 2 * number };
+}

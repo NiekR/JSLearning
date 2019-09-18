@@ -5,4 +5,6 @@
 //import './find';
 //import './everysome';
 //import './reduce';
-import './constlet';
+//import './constlet';
+//import './arrowfunctions';
+import './objectliterals';
