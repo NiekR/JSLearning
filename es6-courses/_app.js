@@ -7,4 +7,6 @@
 //import './reduce';
 //import './constlet';
 //import './arrowfunctions';
-import './objectliterals';
+//import './objectliterals';
+//import './def-function-arg';
+import './rest-spread';
