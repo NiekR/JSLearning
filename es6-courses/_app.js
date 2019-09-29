@@ -9,4 +9,5 @@
 //import './arrowfunctions';
 //import './objectliterals';
 //import './def-function-arg';
-import './rest-spread';
+//import './rest-spread';
+import './destructuring';
