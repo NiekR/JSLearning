@@ -10,4 +10,6 @@
 //import './objectliterals';
 //import './def-function-arg';
 //import './rest-spread';
-import './destructuring';
+//import './destructuring';
+//import './classes';
+import './_generators';

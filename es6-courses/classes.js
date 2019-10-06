@@ -62,3 +62,23 @@ class Toyota extends Car{
 const toyota =  new Toyota({ color: 'red'});
 toyota.honk();
 
+// classes
+
+// old react way
+React.CreateClass({
+    doSomething() {
+
+    },
+
+});
+
+// new
+class MyComponent extends Component {
+    doSOmething(){
+
+    }
+
+    doSomehtingElse(){
+
+    }
+}
